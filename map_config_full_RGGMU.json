@@ -1,0 +1,49 @@
+{
+    "basemap": "https://geo.touristatlas.ru/geoserver/base/wms?service=WMS&version=1.1.0&request=GetMap&layers=base%3Argmu_base&bbox=-180.0%2C-89.99999999999983%2C179.9999999999996%2C90.0&width=768&height=384&srs=EPSG%3A4326&styles=&format=application/openlayers",
+    "projection": "EPSG:3857",
+    "params": {},
+    "center": [
+      37.1,
+      65.5
+    ],
+    "layers": [
+      {
+        "order": 0,
+        "layer": "rggmu_11_11_layer_name", // сюда вставляем название слоя. Название слоя должно начинаться с кластера, затем указываем код карты и собственное название слоя (обязательно латиница! только нижние подчёркивания)
+        "workspace": "cluster_rggmu",
+        "geometry_type": "point", // тип геометрии: point, polygon, line
+        "classified": true,
+        "classified_prop": "type",
+        "label": "name",
+        "visible": false,
+        // этот блок отвечает за инфоокно (см. файл с примерами инфоокон)
+        "infowindow": {
+          "type": "simple_label",
+          "title": "name",
+          "paragraph": "descriptio",
+          "subscription": "address"
+        },
+        // этот блок за отрисовку точки в виде квадрата определенной ширины и высоты (см. файл с примером )
+        "marker": {
+          "type": "simple_rect",
+          "width": 16,
+          "height": 16,
+          "outline_color": "#000000",
+          "background_color": "color_hex"
+        },
+        "zoom": {},
+        "scale": []
+      }
+    ],
+    "zoom": {
+      "min": 1,
+      "max": 7,
+      "start": 2
+    },
+    "extent": {
+      "xmin": 15,
+      "ymin": 52.5,
+      "xmax": 90,
+      "ymax": 65
+    }
+  }
