@@ -28,3 +28,12 @@
     "paragraph": "descriptio", // поле с текстовым описанием
     "subscription": "phone", // поле с телефоном или сайтом (ссылка на сайт полная!)
   }, 
+
+// подпись, текстовый блок и модальное окно
+"infowindow": {
+    "type": "simple_label",
+    "title": "name", // имя поля из которого берется подпись
+    "paragraph": "descriptio", // поле с текстовым описанием
+    "modal": true, 
+    "modal_paragraph": "modal_text", // поле с текстом для модалки
+  }, 
