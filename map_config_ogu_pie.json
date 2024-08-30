@@ -1,0 +1,55 @@
+{
+    "id": 72,
+    "title": "24-13 ОГУ Санатории, дома отдыха, туристические базы. ",
+    "basemap": "https://geo.touristatlas.ru/geoserver/base/wms?service=WMS&version=1.1.0&request=GetMap&layers=base%3Aogu_base&bbox=44.73333333333323%2C44.89999999999991%2C79.86666666666655%2C59.90833333333326&width=768&height=330&srs=EPSG%3A4326&styles=&format=application/openlayers",
+    "is_basemap": false,
+    "projection": "EPSG:3857",
+    "params": {},
+    "center": [
+      55.1821,
+      51.7727
+    ],
+    "layers": [
+      {
+        "order": 0,
+        "layer": "ogu_hotels",
+        "workspace": "cluster_ogu", // для всех карт ОГУ cluster_ogu
+        "geometry_type": "pie", // здесь для круговой диаграммы ставим pie
+        "label": "name",
+        "color": "#000000",
+        "visible": true,
+        "infowindow": null,
+        "marker": {
+          "title": "", // не обязательный, можем оставить ""
+          "tooltip": true,
+          "tooltipDescription": "описание тултипа", // этот текст будет показываться при наведении на сектор диаграммы
+          "tooltipDescriptionProp": "name", // этот текст из ТАБЛИЦЫ АТРИБТОВ будет показываться при наведении на сектор диаграммы. Если не нужен, то оставить ""
+          "sectors": [
+            {
+              "value": "stars_5", // поле в таблице атрибутов, в котором хранится значение для 1го сектора
+              "color": "#ffc60e" // цвет для 1го сектора
+            },
+            {
+              "value": "stars_4", // поле в таблице атрибутов, в котором хранится значение для 2го сектора
+              "color": "#6bbfff" // цвет для 1го сектора
+            }
+          ],
+          "size": "hotels_sum", // поле в таблице атрибутов, из которого берется размер круговой диаграммы. Можно просто указать число
+          "size_multiplication": 1 // это параметр, который отвечает за увеличение размера диаграммы. То есть размер диаграммы на карте будет size * size_multiplication
+        },
+        "zoom": {},
+        "scale": []
+      }
+    ],
+    "zoom": {
+      "min": 5,
+      "max": 8,
+      "start": 7
+    },
+    "extent": {
+      "xmin": 50,
+      "ymin": 38,
+      "xmax": 90,
+      "ymax": 55
+    }
+  }
