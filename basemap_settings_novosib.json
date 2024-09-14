@@ -6,20 +6,13 @@
       "background": "0xD3D5DA",
       "transparent": true
     },
-    "center": [
-      80.9189,
-      55.1706
-    ],
+    "center": [80.9189,55.1706],
     "layers": [],
     "zoom": {
       "min": 3,
       "max": 8,
       "start": 4
     },
-    "extent": {
-      "xmin": 92,
-      "ymin": 51.32743835449219,
-      "xmax": 73,
-      "ymax": 59.2502555847168
+    "extent": {"xmin": 92,"ymin": 51.32743835449219,"xmax": 73,"ymax": 59.2502555847168
     }
   }

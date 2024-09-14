@@ -3,10 +3,7 @@
     "is_basemap": false,
     "projection": "EPSG:3857",
     "params": {},
-    "center": [
-      37.1,
-      65.5
-    ],
+    "center": [37.1,65.5],
     "layers": [],
     "zoom": {
       "min": 1,

@@ -6,19 +6,11 @@
       "background": "0xD3D5DA",
       "transparent": true
     },
-    "center": [
-      39.7233,
-      47.2313
-    ],
+    "center": [39.7233,47.2313],
     "layers": [],
     "zoom": {
       "max": 18,
       "start": 5
     },
-    "extent": {
-      "xmin": 35,
-      "ymin": 41,
-      "xmax": 60,
-      "ymax": 50
-    }
+    "extent": {"xmin": 35,"ymin": 41,"xmax": 60,"ymax": 50}
   }
