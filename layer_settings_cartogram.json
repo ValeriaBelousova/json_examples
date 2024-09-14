@@ -1,10 +1,10 @@
 {
     "order": 0,
-    "layer": "c2_yufu_population",
-    "workspace": "base",
+    "layer": "nngu_25_14_cartogram",
+    "workspace": "cluster_nngu",
     "geometry_type": "cartogram",
     "classified": true,
-    "classified_prop": "year_2023",
+    "classified_prop": "y_2021",
     "label": "name",
     "visible": true,
     "infowindow": null,
@@ -12,28 +12,20 @@
     "zoom": {},
     "scale": [
       {
-        "value": 0,
-        "color": "#000000"
-      },
-      {
-        "value": 5000,
+        "value": 5,
         "color": "#a6caff"
       },
       {
-        "value": 10000,
+        "value": 10,
         "color": "#6ca2ff"
       },
       {
-        "value": 20000,
+        "value": 15,
         "color": "#2861f7"
       },
       {
         "value": 40000,
         "color": "#0039ce"
-      },
-      {
-        "value": 60000,
-        "color": "#0028ac"
       }
     ]
   }
