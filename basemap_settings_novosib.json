@@ -1,0 +1,25 @@
+{
+    "basemap": "https://geo.touristatlas.ru/geoserver/base/wms?service=WMS&version=1.1.0&request=GetMap&layers=base%3Anngu_base&bbox=64.99583333333334%2C44.99583333333332%2C110.01728057861328%2C60.0&width=768&height=330&srs=EPSG%3A4326&styles=&format=application/openlayers",
+    "is_basemap": false,
+    "projection": "EPSG:3857",
+    "params": {
+      "background": "0xD3D5DA",
+      "transparent": true
+    },
+    "center": [
+      80.9189,
+      55.1706
+    ],
+    "layers": [],
+    "zoom": {
+      "min": 3,
+      "max": 8,
+      "start": 4
+    },
+    "extent": {
+      "xmin": 92,
+      "ymin": 51.32743835449219,
+      "xmax": 73,
+      "ymax": 59.2502555847168
+    }
+  }
