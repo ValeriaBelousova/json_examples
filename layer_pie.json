@@ -1,0 +1,46 @@
+{
+    "order": 0,
+    "layer": "ogu_24_13_Hotels",
+    "workspace": "cluster_ogu",
+    "geometry_type": "pie",
+    "label": "name",
+    "color": "#000000",
+    "visible": true,
+    "infowindow": null,
+    "marker": {
+      "sectors": [
+        {
+          "color": "#ffc60e",
+          "value": "stars_5"
+        },
+        {
+          "color": "#6bbfff",
+          "value": "stars_4"
+        },
+        {
+          "color": "#de2740",
+          "value": "stars_3"
+        },
+        {
+          "color": "#00ae04",
+          "value": "stars_2"
+        },
+        {
+          "color": "#012ed4",
+          "value": "stars_1"
+        },
+        {
+          "color": "#a2a3ae",
+          "value": "stars_0"
+        }
+      ],
+      "tooltip": true,
+      "tooltipDescription": "(количество гостиниц)",
+      "size_multiplication": 3,
+      "tooltipDescriptionProp": "name",
+      "size": "size_krug",
+      "title": ""
+    },
+    "zoom": {},
+    "scale": []
+}

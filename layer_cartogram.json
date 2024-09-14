@@ -1,0 +1,39 @@
+{
+    "order": 0,
+    "layer": "c2_yufu_population",
+    "workspace": "base",
+    "geometry_type": "cartogram",
+    "classified": true,
+    "classified_prop": "year_2023",
+    "label": "name",
+    "visible": true,
+    "infowindow": null,
+    "marker": null,
+    "zoom": {},
+    "scale": [
+      {
+        "value": 0,
+        "color": "#000000"
+      },
+      {
+        "value": 5000,
+        "color": "#a6caff"
+      },
+      {
+        "value": 10000,
+        "color": "#6ca2ff"
+      },
+      {
+        "value": 20000,
+        "color": "#2861f7"
+      },
+      {
+        "value": 40000,
+        "color": "#0039ce"
+      },
+      {
+        "value": 60000,
+        "color": "#0028ac"
+      }
+    ]
+  }
