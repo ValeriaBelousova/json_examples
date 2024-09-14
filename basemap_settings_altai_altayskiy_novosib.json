@@ -1,0 +1,19 @@
+{
+    "id": 160,
+    "title": "Базовая карта Алтай, Алтайский, Новосиб",
+    "basemap": "https://geo.touristatlas.ru/geoserver/base/wms?service=WMS&version=1.1.0&request=GetMap&layers=base%3Abase_altai_altayskiy_novosib&bbox=64.99583333333334%2C44.99583333333332%2C110.01728057861328%2C60.0&width=768&height=330&srs=EPSG%3A4326&styles=&format=application/openlayers",
+    "is_basemap": true,
+    "projection": "EPSG:3857",
+    "params": {
+      "background": "0xD3D5DA",
+      "transparent": true
+    },
+    "center": [110,50],
+    "layers": [],
+    "zoom": {
+      "min": 3,
+      "max": 8,
+      "start": 4
+    },
+    "extent": {"xmin": 110,"ymin": 44,"xmax": 66,"ymax": 55}
+  }
