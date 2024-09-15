@@ -1,0 +1,56 @@
+{
+    "basemap": "https://geo.touristatlas.ru/geoserver/base/wms?service=WMS&version=1.1.0&request=GetMap&layers=base%3Abase&bbox=-180.0%2C-90.0%2C180.0%2C90.0&width=768&height=384&srs=EPSG%3A4326&styles=&format=application%2Fopenlayers2",
+    "is_basemap": false,
+    "projection": "EPSG:3576",
+    "params": {
+      "background": "0xD3D5DA",
+      "transparent": true
+    },
+    "center": [
+      23.882598,
+      -20.528082
+    ],
+    "layers": [
+      {
+        "order": 0,
+        "layer": "nngu_19_8_kartogramma_tselevaya_auditoriya",
+        "workspace": "cluster_nngu",
+        "geometry_type": "cartogram",
+        "classified": true,
+        "classified_prop": "value",
+        "label": "name",
+        "visible": true,
+        "infowindow": null,
+        "marker": null,
+        "zoom": {},
+        "scale": [
+          {
+            "value": 0,
+            "color": "#76a8ff"
+          },
+          {
+            "value": 3,
+            "color": "#5380f2"
+          },
+          {
+            "value": 6,
+            "color": "#325cca"
+          },
+          {
+            "value": 9,
+            "color": "#1032a1"
+          }
+        ]
+      }
+    ],
+    "zoom": {
+      "max": 8,
+      "start": 6
+    },
+    "extent": {
+      "xmin": 0,
+      "ymin": 0,
+      "xmax": 0,
+      "ymax": 0
+    }
+  }

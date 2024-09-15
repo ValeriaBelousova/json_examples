@@ -1,0 +1,39 @@
+{
+    "basemap": "https://geo.touristatlas.ru/geoserver/base/wms?service=WMS&version=1.1.0&request=GetMap&layers=base%3Ayufu_vegetation&bbox=-180.0%2C-85.63333333333316%2C179.9999999999996%2C90.0&width=768&height=374&srs=EPSG%3A4326&styles=&format=text%2Fhtml%3B%20subtype%3Dopenlayers",
+    "is_basemap": false,
+    "projection": "EPSG:3857",
+    "params": {
+      "background": "0xD3D5DA",
+      "transparent": true
+    },
+    "center": [
+      39.7233,
+      47.2313
+    ],
+    "layers": [
+      {
+        "order": 0,
+        "layer": "yufu_veg_malorazrush",
+        "workspace": "base",
+        "geometry_type": "polygon",
+        "classified": true,
+        "classified_prop": "year_2023",
+        "label": "name",
+        "visible": true,
+        "infowindow": null,
+        "marker": null,
+        "zoom": {},
+        "scale": []
+      }
+    ],
+    "zoom": {
+      "max": 10,
+      "start": 5
+    },
+    "extent": {
+      "xmin": 35,
+      "ymin": 41,
+      "xmax": 60,
+      "ymax": 50
+    }
+  }

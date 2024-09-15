@@ -1,0 +1,92 @@
+{
+    "basemap": "https://geo.touristatlas.ru/geoserver/base/wms?service=WMS&version=1.1.0&request=GetMap&layers=base%3Anngu_altai_base&bbox=64.99583333333334%2C44.99583333333332%2C110.01728057861328%2C60.0&width=768&height=330&srs=EPSG%3A4326&styles=&format=application/openlayers",
+    "is_basemap": false,
+    "projection": "EPSG:3857",
+    "params": {
+      "background": "0xD3D5DA",
+      "transparent": true
+    },
+    "center": [
+      85.9189,
+      50.5606
+    ],
+    "layers": [
+      {
+        "order": 0,
+        "layer": "nngu_38_27_pie",
+        "workspace": "cluster_nngu",
+        "geometry_type": "pie",
+        "label": "name",
+        "color": "#000000",
+        "visible": true,
+        "infowindow": null,
+        "marker": {
+          "tooltip": true,
+          "tooltipDescription": "",
+          "size_multiplication": 50,
+          "tooltipDescriptionProp": "name",
+          "size": "size_krug",
+          "title": "",
+          "sectors": [
+            {
+              "color": "#6ca2ff",
+              "value": "p_russkie"
+            },
+            {
+              "color": "#99d606",
+              "value": "p_altaicy"
+            },
+            {
+              "color": "#806bff",
+              "value": "p_kazahi"
+            },
+            {
+              "color": "#008720",
+              "value": "p_telengit"
+            },
+            {
+              "color": "#ffa200",
+              "value": "p_kumandin"
+            },
+            {
+              "color": "#012ed4",
+              "value": "p_ukraints"
+            },
+            {
+              "color": "#ff576d",
+              "value": "p_armyane"
+            },
+            {
+              "color": "#07aba0",
+              "value": "p_nemtsi"
+            },
+            {
+              "color": "#ff75ea",
+              "value": "p_chelkant"
+            },
+            {
+              "color": "#ffdd21",
+              "value": "p_tubalary"
+            },
+            {
+              "color": "#bcc0c4",
+              "value": "p_prochie"
+            }
+          ]
+        },
+        "zoom": {},
+        "scale": []
+      }
+    ],
+    "zoom": {
+      "min": 5,
+      "max": 8,
+      "start": 6
+    },
+    "extent": {
+      "xmin": 97,
+      "ymin": 35.32743835449219,
+      "xmax": 81,
+      "ymax": 45.2502555847168
+    }
+  }

@@ -1,0 +1,61 @@
+{
+    "basemap": "https://geo.touristatlas.ru/geoserver/base/wms?service=WMS&version=1.1.0&request=GetMap&layers=base%3Abase_altai_altayskiy_novosib&bbox=64.99583333333334%2C44.99583333333332%2C110.01728057861328%2C60.0&width=768&height=330&srs=EPSG%3A4326&styles=&format=application/openlayers",
+    "is_basemap": true,
+    "projection": "EPSG:3857",
+    "params": {
+      "background": "0xD3D5DA",
+      "transparent": true
+    },
+    "center": [
+      110,
+      50
+    ],
+    "layers": [
+      {
+        "order": 0,
+        "layer": "nngu_24_13_regions",
+        "workspace": "cluster_nngu",
+        "geometry_type": "cartogram",
+        "classified": true,
+        "classified_prop": "2023",
+        "label": "name",
+        "visible": true,
+        "infowindow": null,
+        "marker": null,
+        "zoom": {},
+        "scale": [
+          {
+            "value": 0,
+            "color": "#ffa6b1"
+          },
+          {
+            "value": 1,
+            "color": "#fe7586"
+          },
+          {
+            "value": 2,
+            "color": "#ff556a"
+          },
+          {
+            "value": 6,
+            "color": "#e43248"
+          },
+          {
+            "value": 20,
+            "color": "#a7001c"
+          }
+        ]
+      }
+    ],
+    "zoom": {
+      "min": 3,
+      "max": 8,
+      "start": 4
+    },
+    "extent": {
+      "xmin": 110,
+      "ymin": 44,
+      "xmax": 66,
+      "ymax": 55
+    }
+  }
