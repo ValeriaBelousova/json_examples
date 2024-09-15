@@ -1,10 +1,10 @@
 {
     "order": 0,
-    "layer": "nngu_25_14_cartogram",
-    "workspace": "cluster_nngu",
+    "layer": "nngu_25_14_cartogram", // поменять на имя слоя
+    "workspace": "cluster_nngu", // поменять на код кластера
     "geometry_type": "cartogram",
     "classified": true,
-    "classified_prop": "y_2021",
+    "classified_prop": "y_2021", // поменять на название поля в атрибутивке, по которому строится картограмма
     "label": "name",
     "visible": true,
     "infowindow": null,
@@ -12,8 +12,8 @@
     "zoom": {},
     "scale": [
       {
-        "value": 5,
-        "color": "#a6caff"
+        "value": 0, // поменять на значения из шкалы
+        "color": "#a6caff" // поменять цвет. Посмотреть шкалы можно в файле scale_settings
       },
       {
         "value": 10,
