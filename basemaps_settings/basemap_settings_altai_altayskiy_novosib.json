@@ -1,6 +1,6 @@
 {
     "basemap": "https://geo.touristatlas.ru/geoserver/base/wms?service=WMS&version=1.1.0&request=GetMap&layers=base%3Abase_altai_altayskiy_novosib&bbox=64.99583333333334%2C44.99583333333332%2C110.01728057861328%2C60.0&width=768&height=330&srs=EPSG%3A4326&styles=&format=application/openlayers",
-    "is_basemap": true,
+    "is_basemap": false,
     "projection": "EPSG:3857",
     "params": {
       "background": "0xD3D5DA",

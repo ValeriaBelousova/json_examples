@@ -1,0 +1,14 @@
+{
+  "order": 0,
+  "layer": "yufu_55_41_dots_yacht_clubs", //поменять на название слоя
+  "workspace": "cluster_yufu", // поменять на соответсвующий код кластера
+  "geometry_type": "points", // поменять на тип геометрии points/line/polygon/pie/cartogramm
+  "classified": true,
+  "classified_prop": "type",
+  "label": "name",
+  "visible": true,
+  "infowindow": null,
+  "marker": null,
+  "zoom": {},
+  "scale": []
+}
