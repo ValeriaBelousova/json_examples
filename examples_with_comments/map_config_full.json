@@ -15,7 +15,7 @@
       {
         "order": 0,
         "layer": "yufu_54_40_dots_lizhniy_turizm", // сюда вставляем название слоя. Название слоя должно начинаться с кластера, затем указываем код карты и собственное название слоя (обязательно латиница! только нижние подчёркивания)
-        "workspace": "cluster_yufu", // здесь указываем workspace. Начинается с "cluster_" и далее код: yufu, nngu, rggmu, sgu, pgu, vgu, ogu
+        "workspace": "cluster_yufu", здесь указываем workspace. Начинается с "cluster_" и далее код: yufu, nngu, rggmu, stgu, pgu, vitig, ogu
         "geometry_type": "points", // тип геометрии: points, polygon, line
         "classified": true,
         "classified_prop": "type",
