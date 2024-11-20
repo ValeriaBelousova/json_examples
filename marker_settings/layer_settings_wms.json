@@ -1,0 +1,17 @@
+{
+    "order": 0,
+    "layer": "yufu_55_41_dots_yacht_clubs",
+    "workspace": "cluster_yufu",
+    "geometry_type": "wms", // не забываем здесь ставить wms
+    "classified": true,
+    "classified_prop": "type",
+    "label": "name",
+    "visible": true,
+    "infowindow": null,
+    "marker": {
+      "background_color": "color_hex",
+      "sld": "sld_name" // название стиля на геосервере, если есть. Можем настроить отображение на основе атрибутов, а также в зависимости от зума
+    },
+    "zoom": {},
+    "scale": []
+  }

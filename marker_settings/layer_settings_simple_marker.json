@@ -9,7 +9,6 @@
     "visible": true,
     "infowindow": null,
     "marker": {
-      "type": "simple_rect",
       "width": 16,
       "height": 16,
       "outline_color": "#ffffff",
