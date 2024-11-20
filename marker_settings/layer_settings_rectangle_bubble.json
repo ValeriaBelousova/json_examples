@@ -1,0 +1,19 @@
+{
+    "order": 0,
+    "layer": "yufu_55_41_dots_yacht_clubs",
+    "workspace": "cluster_yufu",
+    "geometry_type": "diagramm", // не забываем здесь ставить diagramm
+    "classified": true,
+    "classified_prop": "type",
+    "label": "name",
+    "visible": true,
+    "infowindow": null,
+    "marker": {
+      "size": "value", // имя поля, в котором хранится значение
+      "values_range": [3876,303357], // указываем разброс значений для поля
+      "outline_color": "#ffffff",
+      "background_color":"color_hex"
+    },
+    "zoom": {},
+    "scale": []
+  }
