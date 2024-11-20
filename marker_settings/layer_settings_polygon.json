@@ -1,0 +1,19 @@
+{
+    "order": 0,
+    "layer": "yufu_55_41_dots_yacht_clubs",
+    "workspace": "cluster_yufu",
+    "geometry_type": "polygon",
+    "classified": true,
+    "classified_prop": "type",
+    "label": "name",
+    "visible": true,
+    "infowindow": null,
+    "marker": {
+      "outline_width": 2, // указываем, если для всех полигонов одинаков, либо добавляем поле outline_width
+      "outline_color": "#ffffff",
+      "background_color": "color_hex",
+      "opacity": 50 // указываем, если для всех полигонов одинаков, либо добавляем поле opacity
+    },
+    "zoom": {},
+    "scale": []
+  }

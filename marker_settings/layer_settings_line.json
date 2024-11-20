@@ -1,0 +1,18 @@
+{
+    "order": 0,
+    "layer": "yufu_55_41_dots_yacht_clubs",
+    "workspace": "cluster_yufu",
+    "geometry_type": "line",
+    "classified": true,
+    "classified_prop": "type",
+    "label": "name",
+    "visible": true,
+    "infowindow": null,
+    "marker": {
+      "outline_width": 2, // указываем, если для всех линий одинаков, либо добавляем поле outline_width
+      "background_color": "color_hex",
+      "opacity": 50 // указываем, если для всех линий одинаков, либо добавляем поле opacity
+    },
+    "zoom": {},
+    "scale": []
+  }
