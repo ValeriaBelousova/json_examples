@@ -1,0 +1,18 @@
+{
+  "order": 0,
+  "layer": "yufu_55_41_dots_yacht_clubs",
+  "workspace": "cluster_yufu",
+  "geometry_type": "svg", // не забываем здесь ставить svg
+  "classified": true,
+  "classified_prop": "type",
+  "label": "name",
+  "visible": true,
+  "infowindow": null,
+  "marker": {
+    "svg": "путь к svg на object storage", // Если для всех объектов внутри слоя одна и та же svg
+    "svg_field": "svg_field", // если в одном слое объекты с разными svg. Если svg единая, то не добавляем это свойство
+    "size_multiplication": 1 // коэффициент увеличения svg, 1 - svg в реальном размере
+  },
+  "zoom": {},
+  "scale": []
+}
