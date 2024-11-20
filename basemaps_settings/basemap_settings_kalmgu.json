@@ -1,5 +1,5 @@
 {
-    "basemap": "https://geo.touristatlas.ru/geoserver/base/wms?service=WMS&version=1.1.0&request=GetMap&layers=base%3Akalmgu_base&bbox=36.99799728393555%2C41.908531188964844%2C56.997802734375%2C51.000003814697266&width=768&height=349&srs=EPSG%3A4326&styles=&format=application/openlayers",
+    "basemap": "",
     "is_basemap": false,
     "projection": "EPSG:3857",
     "params": {},
